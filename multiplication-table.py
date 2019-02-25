@@ -31,4 +31,5 @@ height=range(1,height+1)
 
 for i in height:
     for j in width:
-        print(i, "{0:>3}".format(width[1]*i), "{0:>3}".format(width[2]*i),"{0:>3}".format(width[3]*i), "{0:>3}".format(width[4]*i), "{0:>3}".format(width[5]*i), "{0:>3}".format(width[6]*i),"{0:>3}".format(width[7]*i),"{0:>3}".format(width[8]*i),"{0:>3}".format(width[9]*i), "{0:>3}".format(width[10]*i),"{0:>3}".format(width[11]*i))
+        print("{0:>3}".format(i*j),end=" ")
+    print(" ", end="\n")
